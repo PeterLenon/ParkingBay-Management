@@ -1,0 +1,8 @@
+This project is an implementation of computer vision to manage parking bays. 
+The project is writte complete;y written in python.
+I used the openCV library to mark all the positions of interest with the draw frectangle method
+Then using the coordinates of the rectangle cut crop out each area of interest, apply blurr, canny images and image dilation to enlarge the lightened pixel concentration
+to determine if that particular parking bay is occupied or not
+
+CarPark POS is a binary file that stores all the location of the positions of interest in the frame
+When a footage is played then the script checks if white pixel concentration exceeds a set thershhold to determine if the bay is occupied or not 
